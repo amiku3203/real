@@ -34,7 +34,7 @@ const cookieParser= require("cookie-parser");
 const cors = require('cors');
 
 app.use(cors({
-   origin: 'http://localhost:5173', // Allow requests from this origin
+   origin: 'https://reality-assitstant.netlify.app', // Allow requests from this origin
    methods: ['GET', 'POST', 'PUT', 'DELETE'], // Specify allowed methods
    credentials: true, // Allow cookies if needed
  }));
